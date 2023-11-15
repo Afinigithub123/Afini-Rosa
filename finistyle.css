@@ -1,0 +1,93 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 2px;
+}
+
+#satu {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#dua {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+[class^="gambar"] {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 80px;
+  float: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px;) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.gambar {
+  background-image: url(https://th.bing.com/th/id/OIP.ot7tWiPCYC01pV0kGmK3qQHaE8?pid=ImgDet&rs=1);
+  width: 100%;
+  height: 70%;
+  float: none;
+  border-radius: 0%;
+}
+
+.gambar-2 {
+  background-image: url(https://www.drupal.org/files/project-images/bootstrap-stack.png);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.gambar-3 {
+  background-image: url(https://th.bing.com/th/id/R.6b47d7fec15d3e1a5de086ac1c808f6d?rik=IIkC39481Md3Bw&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f05%2fMySQL_logo_logotype.png&ehk=aWHquyoObU%2fXSsDiw7VKaqGdBCxP2cRjipdNUO5Q6us%3d&risl=&pid=ImgRaw&r=0);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.gambar-4 {
+  background-image: url(https://th.bing.com/th/id/OIP.NigSgwR92-WUPSRu4N5QygHaEF?w=304&h=180&c=7&r=0&o=5&pid=1.7);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.gambar-5 {
+  background-image: url(https://www.ricmedia.com/images/32.webp);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.gambar-6 {
+  background-image: url(https://www.thesslstore.com/blog/wp-content/uploads/2019/06/DNS-Icon-2-776x1024.png);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+.gambar-7 {
+  background-image: url(https://th.bing.com/th/id/R.8c3654509f92238d2a37a0bb78d07143?rik=gaGgYHJvf3BMUg&riu=http%3a%2f%2fwww.windowscentral.com%2fsites%2fwpcentral.com%2ffiles%2fstyles%2fxlarge%2fpublic%2ffield%2fimage%2f2016%2f03%2fubuntu-logo.jpg%3fitok%3d02qv11vf&ehk=8nnP80rGHzPW7iK4kfFRCIs5zSWZIeaJtmZ%2bKx5AejM%3d&risl=&pid=ImgRaw&r=0);
+  width: 25%;
+  height: 100%;
+  float: right;
+}
